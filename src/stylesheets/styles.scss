@@ -1,0 +1,51 @@
+@import "reset";
+@import "fonts";
+
+$boardSize: 20;
+$cellSize: 25px;
+$borderWidth: 0;
+$borderColor: teal;
+$color: tomato;
+$boardWidth: $boardSize * $cellSize + 2 * $borderWidth;
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.app-wrapper {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+  > .app {
+    width: $boardWidth;
+    min-width: 600px;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.new-game {
+  margin-bottom: 20px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: $boardWidth;
+  //border: $borderWidth solid $borderColor;
+  box-shadow: 0px 0px 5px 1px #000000;
+  margin: 20px auto;
+
+  .cell {
+    width: $cellSize;
+    height: $cellSize;
+    //border: $borderWidth solid $borderColor;
+    box-shadow: 0px 0px 1px 0px #000000;
+    line-height: $cellSize - $borderWidth;
+    color: $color;
+    text-align: center;
+  }
+}
