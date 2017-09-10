@@ -35,7 +35,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: $boardWidth;
-  //border: $borderWidth solid $borderColor;
   box-shadow: 0px 0px 5px 1px #000000;
   margin: 20px auto;
 
@@ -43,7 +42,7 @@ body {
     width: $cellSize;
     height: $cellSize;
     //border: $borderWidth solid $borderColor;
-    box-shadow: 0px 0px 1px 0px #000000;
+    box-shadow: 1px 1px 1px -1px #000000;
     line-height: $cellSize - $borderWidth;
     color: $color;
     text-align: center;
