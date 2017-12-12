@@ -3,8 +3,8 @@ function Board(size) {
     this.board = createBoard(this.size);
 
     this.markCell = function (point, sign) {
-        for (var i = 0; i < this.size * this.size; i++) {
-            var currentCell = this.board[i];
+        for (let i = 0; i < this.size * this.size; i++) {
+            let currentCell = this.board[i];
             if (point.x === currentCell.point.x && point.y === currentCell.point.y && !currentCell.sign) {
                 currentCell.sign = sign;
                 return currentCell;
@@ -14,9 +14,9 @@ function Board(size) {
     };
 
     function createBoard(size) {
-        var board = [];
-        for (var i = 0; i < size; i++) {
-            for (var j = 0; j < size; j++) {
+        let board = [];
+        for (let i = 0; i < size; i++) {
+            for (let j = 0; j < size; j++) {
                 board.push({
                     point: {x: i, y: j},
                     sign: ''

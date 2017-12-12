@@ -12072,7 +12072,7 @@ var App = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));
 
-        _this.state = { name: 'Ararat' };
+        _this.state = { name: 'React XO' };
         return _this;
     }
 
@@ -13038,7 +13038,7 @@ exports = module.exports = __webpack_require__(110)(undefined);
 
 
 // module
-exports.push([module.i, "html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol {\n  margin: 0;\n  padding: 0; }\n\nol, ul {\n  list-style: none; }\n\nbody {\n  box-sizing: border-box; }\n  body * {\n    box-sizing: inherit; }\n\n@font-face {\n  font-family: \"Roboto-Light\";\n  src: url(" + __webpack_require__(125) + "); }\n\n@font-face {\n  font-family: \"Roboto-Medium\";\n  src: url(" + __webpack_require__(126) + "); }\n\n@font-face {\n  font-family: \"Roboto-Regular\";\n  src: url(" + __webpack_require__(127) + "); }\n\nbody {\n  font-family: Roboto, sans-serif; }\n\n.app-wrapper {\n  padding: 10px;\n  display: flex;\n  justify-content: center; }\n  .app-wrapper > .app {\n    width: 500px;\n    min-width: 600px; }\n\n.title {\n  text-align: center; }\n\n.new-game {\n  margin-bottom: 20px; }\n\n.board {\n  display: flex;\n  flex-wrap: wrap;\n  width: 500px;\n  box-shadow: 0px 0px 5px 1px #000000;\n  margin: 20px auto; }\n  .board .cell {\n    width: 25px;\n    height: 25px;\n    box-shadow: 1px 1px 1px -1px #000000;\n    line-height: 25px;\n    color: tomato;\n    text-align: center; }\n", ""]);
+exports.push([module.i, "html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol {\n  margin: 0;\n  padding: 0; }\n\nol, ul {\n  list-style: none; }\n\nbody {\n  box-sizing: border-box; }\n  body * {\n    box-sizing: inherit; }\n\n@font-face {\n  font-family: \"Roboto-Light\";\n  src: url(" + __webpack_require__(125) + "); }\n\n@font-face {\n  font-family: \"Roboto-Medium\";\n  src: url(" + __webpack_require__(126) + "); }\n\n@font-face {\n  font-family: \"Roboto-Regular\";\n  src: url(" + __webpack_require__(127) + "); }\n\nbody {\n  font-family: Roboto, sans-serif; }\n\n.app-wrapper {\n  padding: 10px;\n  display: flex;\n  justify-content: center; }\n  .app-wrapper > .app {\n    width: 500px;\n    min-width: 600px; }\n\n.title {\n  text-align: center; }\n\n.new-game {\n  margin-bottom: 20px; }\n\n.board {\n  display: flex;\n  flex-wrap: wrap;\n  width: 500px;\n  box-shadow: 0px 0px 5px 1px #000000;\n  margin: 20px auto; }\n  .board .cell {\n    width: 25px;\n    height: 25px;\n    box-shadow: 1px 1px 1px -1px #000000;\n    line-height: 25px;\n    color: teal;\n    text-align: center; }\n", ""]);
 
 // exports
 

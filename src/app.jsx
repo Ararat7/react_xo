@@ -13,7 +13,7 @@ const socket = io();
 class App extends React.Component {
     constructor() {
         super();
-        this.state = {name: 'Ararat'};
+        this.state = {name: 'React XO'};
     }
     componentDidMount() {
         // let that = this;

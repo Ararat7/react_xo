@@ -1,5 +1,5 @@
-var Player = require('./player');
-var Board = require('./board');
+let Player = require('./player');
+let Board = require('./board');
 
 function Game(id, player1, player2, board) {
 
@@ -15,7 +15,7 @@ function Game(id, player1, player2, board) {
     };
 
     this.play = function (playerId, point) {
-        var sign = '';
+        let sign = '';
         if (this.player1.id === playerId) {
             sign = 'x';
         } else if (this.player2.id === playerId) {
